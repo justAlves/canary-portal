@@ -25,7 +25,7 @@ export default function DownloadButton() {
         if (total) setProgress(Math.round((received / total) * 100));
       }
 
-      const blob = new Blob(chunks, { type: "application/zip" });
+      const blob = new Blob(chunks as BlobPart[], { type: "application/zip" });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
