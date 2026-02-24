@@ -16,8 +16,8 @@ const crimson = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Canary OT Server",
-  description: "Open Tibia Server Portal",
+  title: "Flotation Device",
+  description: "A Open Tibia Server - Crie sua conta, conecte-se e embarque em uma aventura épica no mundo de Tibia com o Flotation Device!",
 };
 
 export default function RootLayout({
